@@ -1,0 +1,195 @@
+@font-face {
+    font-family: Roboto_Regular;
+    src: url("../fonts/Roboto-Regular.ttf");
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 10px;
+    font-family: Roboto_Regular;
+    width: 1440px;
+    height: 4509px;
+    margin-top: 50px;
+    margin-left:50px;
+    /* Die letzten beiden Zeilen nur für mich zur Übersicht */
+}
+
+header {
+    width: 100%;
+    height: 662px;
+    background-color: #CCCCCC;
+    border-bottom: 1px solid #adacac;
+    /* !Hier müsst eman der border noch nen Schimmer geben */
+}
+
+nav {
+    margin-left: 10rem;
+}
+
+.navigation {
+    text-decoration: none;
+    font-size: 1.4rem;
+    color: #659D89;
+    display: inline-block;
+    margin-right: 2.228rem;
+    margin-bottom: 10.3rem;
+
+}
+
+section h1 {
+    display: inline-block;
+    width: 62rem;
+    height: 23.4rem;
+    font-size: 5rem;
+    font-weight: lighter;
+    margin-bottom: 5rem;
+    margin-left: 10rem;
+}
+
+span {
+    color: #659D89;
+}
+
+.umbruch::after {
+display: block;;
+content: "";
+}
+
+/* !Obiges macht Zeilenumbruch nach dem Wort, das ich im HTML in <span> gesetzt habe */
+
+.rechtsverschieben {
+text-align: right;
+margin-left: 133rem;
+}
+
+li {
+    list-style: none;
+}
+
+.socialmediaicons {
+    width: 2rem;
+    height: 2rem;
+    margin-right: 10rem;
+    margin-bottom: 0.55rem;
+}
+
+header section:last-of-type a {
+margin-top: 8.25rem;
+display: inline-block;
+text-decoration: none;
+color: #666666;
+margin-left: 10rem;
+}
+
+main {
+    background-color: #CCCCCC;
+    height: 356.4rem;
+    border-bottom: 1px solid #adacac;
+}
+
+h2:not(.überschriftenohnemargin) {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    margin-left: 10rem;
+    /* padding-top: 20px; */
+    /* !Padding wert muss ich noch rausfinden-Abstand zur border, kann ich im figma nicht finden */
+}
+
+h3 {
+    font-size: 1.6rem;
+    margin-left: 10rem;
+}
+
+main section:first-of-type {
+    border-bottom: 1px solid #adacac;
+}
+
+main section:first-of-type article {
+    height: 67.9rem;
+    border-bottom: 1px solid #adacac;
+}
+
+.stressedsmiley {
+    text-align: center;
+}
+
+#erstesmileyreihe {
+    margin-top: 8rem;
+}
+
+/* #letztesmileyreihe {
+    margin-bottom: 82.5px;
+} */
+
+.smileybild {
+    margin-right: 5.248rem;
+    margin-bottom: 5.25rem;
+}
+
+.teilzwei {
+    border-bottom: 1px solid #adacac;
+}
+
+#zweiteüberschrift {
+    margin-bottom: 8rem;
+}
+
+.bilderteil {
+    width: 124rem;
+    height: 269.489rem;
+    margin: 0 auto;
+    margin-top: 1.5rem;
+}
+
+.ersterarticlemitbild {
+    margin-top: 8rem;
+}
+
+.bildermitbeschreibung {
+    width: 108rem;
+    height: 53.425rem;
+    margin-bottom: 10rem;
+    text-align: center;
+}
+
+
+
+.menschenbilder {
+    width: 75.6rem;
+    height: 42.525rem;
+}
+
+.bildeinsdrei {
+    margin-left: 8rem;
+}
+
+.bildzweivier {
+    margin-left: 40.4rem;
+}
+
+.textunterbild {
+    /* text-align: center; */
+    /* width: 108rem;
+    height: 53.425; */
+    width: 75.6rem;
+    height: 9.15rem;
+}
+
+.textunterbild p, .textunterbild h2 {
+    margin-top: 2rem;
+}
+
+#textbildzweivier {
+    margin-left: 50.4rem;
+}
+
+#textbildeinsdrei {
+    margin-left: 18rem;
+}
+
+/* !eventuell muss ich die Klasse anders vergeben oder noch andere Sachen dazu machen, dass Text auch mittig unterm Bild */
