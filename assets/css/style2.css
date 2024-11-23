@@ -1,0 +1,203 @@
+@font-face {
+    font-family: Roboto_Regular;
+    src: url("../fonts/Roboto-Regular.ttf");
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 10px;
+    font-family: Roboto_Regular;
+    height: 4509px;
+
+}
+
+body {
+    width: 144rem;
+    /* background-color: #CCCCCC; */
+}
+
+/* !Wenn ich hier background-color vergebe, geht es über die ganze Breite des Bildschirms obwohl ich die Breite definiert habe-->Wieso? */
+
+header {
+    width: 144rem;
+    height: 66.2rem;
+    border-bottom: 1px solid #565656;
+    background-color: #CCCCCC;
+}
+
+a {
+    text-decoration: none;
+    color: #666666;
+}
+
+
+.navigation {
+    color: #659D89;
+    font-size: 1.4rem;
+    display: inline-block;
+    margin: 2rem 2.28rem 10.3rem 10rem;
+}
+
+header section h1 {
+    display: inline-block;
+    width: 62rem;
+    height: 23.4rem;
+    font-size: 5rem;
+    font-weight: lighter;
+    margin-bottom: 5rem;
+    margin-left: 10rem;
+}
+
+span {
+    color: #659D89;
+}
+
+.umbruch::after {
+display: block;;
+content: "";
+}
+
+/* !Obiges macht Zeilenumbruch nach dem Wort, das ich im HTML in <span> gesetzt habe */
+
+header section div {
+    width: 124rem;
+    height: 7.35rem;
+    text-align: right;
+    margin-left: 10rem;
+    margin-bottom: 8rem;
+}
+
+li {
+    list-style: none;
+}
+
+.socialmediaicons {
+    width: 2rem;
+    height: 2rem;
+}
+
+.browsebutton {
+    display: inline-block;
+    width: 124rem;
+    height: 1.95rem;
+    margin-bottom: 6.55rem;
+    margin-left: 10rem;
+}
+
+main {
+    background-color: #CCCCCC;
+}
+
+main section:nth-of-type(1) {
+    height: 79.35rem;
+    width: 144rem;
+    border-bottom: 1px solid #565656;
+}
+main section:nth-of-type(1) h2 {
+    font-size: 2rem;
+    margin-left: 10rem;
+    padding-top: 5.6rem;
+    margin-bottom: 1.5rem;
+}
+
+main section:nth-of-type(1) h3 {
+    font-size: 1.6rem;
+    margin-left: 10rem;
+    margin-bottom: 8rem;
+}
+
+ .beidesmileyreihen {
+    height: 67.9rem;
+} 
+ 
+.stressedsmileys {
+    height:28.45rem;
+    margin-left: 18rem;
+}
+
+.smileybild {
+    width: 32rem;
+    height: 23.3rem;
+    margin-right: 5.248rem; 
+}
+
+ .zweitesection {
+    height: 273.339rem;
+    width: 1440px;
+    border-bottom: 1px solid #565656;
+}
+
+
+.section2h2 {
+margin-left: 10rem;
+padding-top: 5rem;
+margin-bottom: 9.5rem;
+font-size: 2rem;
+}
+
+.bildeinsdrei {
+    margin-left: 18rem;
+    margin-bottom: 10rem;
+}
+
+.bild24 {
+    margin-left: 50.4rem;
+    margin-bottom: 10rem;
+}
+
+.menschenbilder {
+    margin-bottom: 1.75rem;
+}
+
+.bildtext13 {
+    text-align: center;
+    width: 75.6rem;
+    margin-right: 50.4rem;
+}
+
+.bildtext24 {
+    text-align: center;
+    width: 75.6rem;
+    margin-right: 18rem;
+}
+
+.bildtextabstand {
+    margin-bottom: 2rem;
+}
+
+p {
+    font-size: 1.2rem;
+    color: #666666;
+}
+
+section:nth-of-type(2) article div h2 {
+    font-size: 2rem;
+}
+
+
+footer {
+    text-align: center;
+    padding-top: 8.4rem;
+    background-color: #CCCCCC;
+}
+
+/* !Wenn ich background-color einzeln vergebe, entstehen Lücken --> MArgin nimmt keine Backgroundcolor an-->statt margin-top habe ich jetzt überall padding-top bestimmt*/
+
+footer a {
+    display: inline-block;
+    margin-bottom: 8.25rem;
+}
+
+img:hover {
+    box-shadow: 0 0 10px 5px #565656;
+}
+
+
+.browsebutton:hover, .letztesatag:hover, .navigation:hover {
+    text-shadow: 0 0 15px #565656;
+}
